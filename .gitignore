@@ -1,0 +1,20 @@
+# Never commit generated/cached/state or heavy binaries back in
+**/wallpaper_effects/
+**/.wallpaper_current
+**/.wallpaper_modified
+**/.initial_startup_done
+**/*cache*/
+**/*-backup*/
+**/*.log
+**/*.sock
+**/*.db
+**/*.db-*
+
+# No wallpapers in the repo (see README for the source)
+wallpapers/
+**/wallpapers/
+*.mp4
+
+# Editor / OS noise
+*.swp
+.DS_Store
